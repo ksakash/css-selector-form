@@ -8,11 +8,18 @@
     <form>
       <label for="sites">Choose a site:</label>
       <select name="sites" id="sites">
+        <option value="amazon_in">Amazon IN</option>
       </select>
       <br><br>
     </form>
     <button id="create">Create</button>
-    <div id="selector_form"></div>
+    <div id="form" style="display: none;">
+    <table>
+        <tbody id="table">
+        </tbody>
+    </table>
+    <button id="save_form">Save</button>
+    </div>
     <script src="./public/script.js"></script>
 </body>
 </html>
